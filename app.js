@@ -31,3 +31,5 @@ app.get("/books", (req, res) => {
 
   res.json(results);
 });
+
+module.exports = app;
